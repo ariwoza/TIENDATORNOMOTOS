@@ -93,4 +93,6 @@ window.addEventListener('load', () => {
 	overlay.addEventListener('click', (evento) => {
 		evento.target.id === 'overlay' ? overlay.classList.remove('activo') : '';
 	});
+
+	
 });

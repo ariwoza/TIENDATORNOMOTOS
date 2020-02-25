@@ -286,17 +286,17 @@ nav .ulmenu .limenu{
 	.contenedorgrid .cajacategorias{
 		width:100%;
 		margin:auto;
+		height:auto;
 	}
 	.contenedorgrid .cajagrid{
-		width:100%
+		width:100%;
+		margin-top: 50px;
 	}
 	.cajagrid .grid .item{
 		/* width: 40% !important; */
 		width: 40% !important;
 		margin: 30px  !important;
 		
-
-		/* width: calc(50% - 20px); */
 	}
 }
 
@@ -306,10 +306,75 @@ nav .ulmenu .limenu{
 		width: 90% !important;
 		margin: 20px  !important;
 		
-
-		/* width: calc(50% - 20px); */
 	}
 }
+
+/* ------------------------- */
+/* MEDIA CATEGORIAS*/
+/* ------------------------- */
+
+@media (max-width:670px){
+
+	
+	.cajacategorias form {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		margin-bottom: 20px;
+	}
+	
+	.cajacategorias .barra-busqueda {
+		width: 70%;
+		height: 40px;
+		line-height: 40px;
+		background: #fff;
+		padding: 0 20px;
+		border-radius: 100px;
+		border: none;
+		text-align: center;
+		font-size: 16px;
+	}
+	.barra-busqueda::placeholder {
+		color:#3FEA50;
+	  }
+	
+	.cajacategorias .categorias {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		flex-direction: row;
+		width:100%;
+		
+	}
+	
+	.cajacategorias .categorias .cat {
+		color: #222222;
+		margin: 10px 10px;
+		font-size: 18px;
+		font-weight: 700;
+		border: 1px solid #222222;
+		border-radius: 255px;
+		padding:10px 20px;
+	}
+	.categorias .subcategorias{
+		color: #222222;
+		margin: 10px 0 10px 40px;
+		font-size: 15px;
+		font-weight: 400;
+		text-align: none;
+		display:none;
+		
+	}
+	
+	.cajacategorias .categorias a.activo {
+		color: #fff;
+		border: 3px solid #fff;
+	}
+
+}
+
+
+
 /* ------------------------- */
 /* Grid */
 /* ------------------------- */

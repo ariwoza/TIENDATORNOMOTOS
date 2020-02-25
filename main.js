@@ -67,7 +67,7 @@ window.addEventListener('load', () => {
         // if (window.event) keycode = window.event.keyCode;
 		// if (window.event.keyCode = 13 ) return false;
 		
-		const busqueda = evento.target.value.innerHTML.toLowerCase();
+		const busqueda = evento.target.value.toLowerCase();
 		grid.filter( (item) => item.getElement().dataset.etiquetas.includes(busqueda) );
 	});
 

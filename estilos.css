@@ -510,6 +510,9 @@ nav .ulmenu .limenu{
 
 .contenedor-img {
 	position: relative;
+	width:80%;
+	height:auto;
+	object-fit: contain;
 }
 
 .overlay #btn-cerrar-popup {

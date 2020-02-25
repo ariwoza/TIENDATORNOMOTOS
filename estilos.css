@@ -331,7 +331,7 @@ nav .ulmenu .limenu{
 	width: 100%;
 	opacity: 0;
 	transition: opacity 0.5s linear 1s;
-	background:orange;
+	
 }
 
 .cajagrid .grid.imagenes-cargadas {
@@ -345,7 +345,7 @@ nav .ulmenu .limenu{
 	margin: 10px;
 	width: calc(33.333333% - 20px);
 	height:300px;
-	background:purple;
+	
 	
 	-webkit-box-shadow: 5px 5px 5px 2px rgba(0,0,0,0.38);
 	-moz-box-shadow: 5px 5px 5px 2px rgba(0,0,0,0.38);
@@ -397,7 +397,7 @@ nav .ulmenu .limenu{
 	padding: 0 !important;
 	margin: 20px;
 	height:300px;
-	background:blue !important;
+	
 	
 	}
 

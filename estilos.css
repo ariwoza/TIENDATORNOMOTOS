@@ -228,13 +228,15 @@ nav .ulmenu .limenu{
 
 
 .contenedor{
-	
 	margin-top: 80px;
 }
 .cajafotoprin{
 	width:100%;
-	height:100vh;
-	background:#222222;
+	height:50vh;
+	background-image: url("./img/bannerserviciosindex.png");
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
  .tituloseccion {
 	text-align: center;

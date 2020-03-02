@@ -3,25 +3,36 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,500,600,700,700i,800&display=swap" rel="stylesheet">	<script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
-	<link rel="stylesheet" href="estilos.css">
+	<link rel="stylesheet" href="./css/repuestosstyle.css">
 	<title>Productos |Torno Motos JR</title>
-	<script src="icono.js"></script>
-	<script src="scroll.js"></script>
-	<script src="jquery.js"></script>
-	<link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
-	<link rel="stylesheet" href="style.css">
+	<script src="./js/script.js"></script>
+	<script src="./js/icono.js"></script>
+	<script src="./js/scroll.js"></script>
+	<script src="./js/jquery-3.2.1.js"></script>
+	<link rel="stylesheet" href="./style.css">
 </head>
 <body>
 	<header id="header">
 		<div class="barramenu">
 			<nav>
-				<div class="cajalogo"><img src="./img/logo.png" alt=""></div>
+				<div class="cajalogo"><img src="./imgproductos/logo.png" alt=""></div>
 				<ul class="ulmenu">
 					<li class="limenu"><a class="amenu" href="">Inicio</a></li>
-					<li class="limenu"><a class="amenu" href="">Servicios</a></li>
+					<li class="limenu submenu" id="serviciosmenu"><div class="servmenu"><a class="amenu servlink" href="https://www.youtube.com/watch?v=kP6_nlTdPgI">Servicios </a> <div class="cajadown"><p class="icon-arrow-down2 down"></p></div></div>
+						<ul>
+							
+							<li><a href="#">Servicio Técnico</a></li>
+							<li><a href="#">Rectificada</a></li>
+							<li><a href="#">Servicio de Torno</a></li>
+							<li><a href="#">Cambio de bielas</a></li>
+							<li><a href="#">Rectificada de culatas</a></li>
+							<li><a href="#">Prensa hidraulica</a></li>
+							<li><a href="#">Balanceo de cigüeñal</a></li>
+							<li><a href="#">Encamisada de cilindros</a></li>
+						</ul>
+					</li>
 					<li class="limenu"><a class="amenu" href="">Repuestos</a></li>
 					<li class="limenu"><a class="amenu" href="">Nosotros</a></li>
 					<li class="limenu"><a class="amenu" href="">Contacto</a></li>
@@ -69,7 +80,7 @@
 			>
 				<div class="item-contenido">
 					<div class="fotoitem">
-						<img src="img/biela.jpg" alt="">
+						<img src="imgproductos/kitbielacassarella.jpg" alt="">
 					</div>
 					<div class="textoitem">
 						<h2>Kit biela Cassarella</h2>
@@ -85,7 +96,7 @@
 			>
 				<div class="item-contenido">
 				<div class="fotoitem">
-					<img src="img/biela.jpg" alt="">
+					<img src="imgproductos/kitbielavitrix.jpg" alt="">
 					</div>
 					<div class="textoitem">	
 						<h2>Kit biela Vitrix</h2>
@@ -103,7 +114,7 @@
 			>
 				<div class="item-contenido">
 				<div class="fotoitem">
-					<img src="img/biela.jpg" alt="">
+					<img src="imgproductos/kitbielabost.jpg" alt="">
 				</div>
 					<div class="textoitem">
 					<h2>Kit biela bost</h2>
@@ -115,15 +126,15 @@
 
 			<div class="item" 
 				 data-categoria="repuestos"
-				 data-etiquetas="kit biela kmt"
-				 data-descripcion="Kit biela KMT"
+				 data-etiquetas="kit biela ktm"
+				 data-descripcion="Kit biela KTM"
 			>
 				<div class="item-contenido">
 				<div class="fotoitem">
-					<img src="img/biela.jpg" alt="">
+					<img src="imgproductos/kitbielaktm.jpg" alt="">
 				</div>
 				<div class="textoitem">
-					<h2>Kit biela KMT</h2>
+					<h2>Kit biela KTM</h2>
 					<h4>Ref:000001</h4>
 					<h4>Mod: Akt</h4>
 				</div>
@@ -138,7 +149,7 @@
 			>
 				<div class="item-contenido">
 				<div class="fotoitem">
-					<img src="img/biela.jpg" alt="">
+					<img src="imgproductos/kitbielamapache.jpg" alt="">
 				</div>
 				<div class="textoitem">
 					<h2>Kit biela Mapache</h2>
@@ -156,7 +167,7 @@
 			>
 				<div class="item-contenido">
 				<div class="fotoitem">
-					<img src="img/llantasauteco.jpg" alt="">
+					<img src="imgproductos/llantasauteco.jpg" alt="">
 				</div>
 				<div class="textoitem">
 					<h2>Llantas Auteco pista</h2>
@@ -173,7 +184,7 @@
 			>
 				<div class="item-contenido">
 				<div class="fotoitem">
-					<img src="img/llantasauteco.jpg" alt="">
+					<img src="imgproductos/llantasauteco.jpg" alt="">
 				</div>
 				<div class="textoitem">
 					<h2>Llantas Hero calle</h2>
@@ -190,7 +201,7 @@
 			>
 				<div class="item-contenido">
 				<div class="fotoitem">
-					<img src="img/aceite.jpg" alt="">
+					<img src="imgproductos/aceite.jpg" alt="">
 				</div>
 				<div class="textoitem">
 					<h2>Aceite Auteco 110</h2>
@@ -206,7 +217,7 @@
 	   >
 		   <div class="item-contenido">
 			<div class="fotoitem">
-				<img src="img/bateria.jpg" alt="">
+				<img src="imgproductos/bateria.jpg" alt="">
 			</div>
 			<div class="textoitem">
 			   <h2>Batería hero 220v</h2>
@@ -228,11 +239,11 @@
 
 		</div>
 	</div>
-
-	<script src="animacionesmuuri.js"></script>
-	<script src="muri.js"></script>
-	<script src="main.js"></script>
-	<script src="botonbacktotop.js"></script>
+	
+	<script src="./js/animacionesmuuri.js"></script>
+	<script src="./js/muri.js"></script>
+	<script src="./js/filtros.js"></script>
+	<script src="./js/botonbacktotop.js"></script>
 	
 </body>
 </html>
